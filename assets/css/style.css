@@ -1,0 +1,38 @@
+body{
+    padding:40px;
+    font-family: Arial, sans-serif;
+}
+
+.tab-item{
+    padding:15px;
+    border:1px solid #ddd;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+
+.tab-item.active{
+    background:black;
+    color:white;
+}
+
+.content-slider{
+    padding:20px;
+}
+
+.image-slider img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+}
+
+@media(max-width:768px){
+
+    .row{
+        display:block;
+    }
+
+    .tab-item{
+        margin-bottom:5px;
+    }
+
+}
